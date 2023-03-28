@@ -1,0 +1,239 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header2nd{
+    height: 100px;
+    background-color: #efeeee;
+    ;
+}
+
+.header2ndinside{
+    padding-top: 25px;
+    padding-left: 61px;
+}
+.span{
+    color: #666262;
+    font-family: sans-serif;
+}
+.card img {
+  width: 220px !important;
+}
+
+.product-img.whith-shoes {
+  position: relative;
+  top: 100px;
+}
+
+.product-img.black-shoes {
+  position: relative;
+  top: 55px;
+}
+.card h1{
+  font-size: 18px;
+}
+.b{
+    font-size: 22px;
+    font-family: sans-serif;
+}
+.home{
+    float: right;
+    padding-right: 100px;
+    margin-top: -32px;
+    text-decoration: none;
+    color: #c9c7c7;
+}
+.home>a{
+    text-decoration: none;
+    color: #666262;
+}
+.home>a:hover{
+    color: rgb(60, 181, 60);
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 22%;
+    float: left;
+   text-align: center;
+    font-family: arial;
+    margin-left: 30px;
+    margin-top: 18px;
+    width: 22%;
+  }
+  
+  .price {
+    color: black;
+    font-size: 22px;
+    margin-top: 0;
+}
+  .pt{
+    padding-top: 32px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #5bc192;
+    text-align: center;
+    cursor: pointer;
+    width: 40%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+  .dflex{
+    display: inline-block;
+    width: 100%;
+  }
+  body {
+    margin: 0px;
+    font-family: sans-serif;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0 100px;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    font-family: sans-serif;
+    padding: 50px 0px 0px 50px;
+    text-decoration: none;
+  }
+  .t {
+    float: left;
+    font-weight: bold;
+    font-size: 40px;
+    padding-top: 30px;
+    padding-left: 30px;
+  }
+  .div1 {
+    border-bottom: 2px solid rgb(207, 202, 202);
+    height: 85px;
+  }
+  
+  li a:hover {
+    color: green;
+  }
+  .product-img {
+    height: 265px;
+    overflow: hidden;
+}
+
+.product-details {
+  height: 50px;
+}
+  .limg {
+    width: 20px;
+  }
+  
+  .fdiv {
+    text-align: center;
+    border-top: 2px solid rgb(207, 202, 202);
+    margin-top: 100px;
+    margin-bottom: 40px;
+  }
+  
+  .fimg {
+    margin-right: 30px;
+    width: 25px;
+  }
+  
+  .m {
+    margin-top: 20px;
+  }
+  .cimg {
+    width: 25px;
+    position: relative;
+    top: 8px;
+    margin-left: 10px;
+  }
+  
+  .w {
+    word-spacing: 20px;
+    margin-top: 30px;
+  }
+  
+  .div2 {
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+  }
+  
+  .con {
+    width: 50%;
+    float: right;
+  }
+  
+  .div3 {
+    margin-top: 70px;
+    margin-left: 40px;
+  }
+  
+  .but {
+    width: 200px;
+    height: 40px;
+    font-size: 22px;
+    background-color: transparent;
+    margin-top: 30px;
+  }
+  
+  .bimg {
+    height: 450px;
+  }
+  
+  .mdiv {
+    width: 16.5%;
+    border-bottom: 1px dashed rgb(199, 199, 199);
+    border-right: 1px dashed rgb(199, 199, 199);
+    float: left;
+    text-align: center;
+  }
+  .mimg {
+    width: 100px;
+  }
+  
+  .brand-container {
+    display: inline-block;
+    width: 100%;
+  
+  }
+  .block{
+      border-bottom: none;
+  }
+  .rblock{
+      border-right: none;
+  }
+  
+.ba{
+  text-decoration: none;
+  color: black;
+}
+
+.ps{
+  word-spacing: 4px;
+}
+
+.fa{
+  text-decoration: none;
+  color: black;
+}
+
+.fa:hover {
+  color: green;
+}
+.font{
+  font-size: 20px;
+}

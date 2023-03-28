@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+
+
+
+.counter-container {
+  display: inline-block;
+  text-align: center;
+  margin: 30px 50px;
+}
+
+.counter {
+  font-size: 60px;
+  margin-top: 10px;
+}
+
+
+.social-stats {
+  width: 800px;
+  margin: 44px auto;
+}

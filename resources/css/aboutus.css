@@ -1,0 +1,206 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.header2nd{
+    height: 100px;
+    background-color: #efeeee;
+    ;
+}
+
+.header2ndinside{
+    padding-top: 25px;
+    padding-left: 61px;
+}
+.span{
+    color: #666262;
+    font-family: sans-serif;
+}
+
+.b{
+    font-size: 22px;
+    font-family: sans-serif;
+}
+.home{
+    float: right;
+    padding-right: 100px;
+    margin-top: -32px;
+    text-decoration: none;
+    color: #c9c7c7;
+}
+.home>a{
+    text-decoration: none;
+    color: #666262;
+}
+.home>a:hover{
+    color: rgb(60, 181, 60);
+}
+.container1{
+    width: 80%;
+    margin: auto;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 26.66%;
+    padding:10px ;
+    height: 300px; 
+  }
+  .span2{
+    color:#69c8a7;
+  }
+  .hr{
+    color: rgb(170, 238, 200);
+  }
+.p{
+    font-size: 18px;
+    color: #897f7f;
+    font-family: emoji;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0 100px;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    font-family: sans-serif;
+    padding: 50px 0px 0px 50px;
+    text-decoration: none;
+  }
+  .t {
+    float: left;
+    font-weight: bold;
+    font-size: 40px;
+    padding-top: 30px;
+    padding-left: 30px;
+  }
+  .div1 {
+    border-bottom: 2px solid rgb(207, 202, 202);
+    height: 85px;
+  }
+  
+  li a:hover {
+    color: green;
+  }
+  
+  .limg {
+    width: 20px;
+  }
+  
+  .fdiv {
+    text-align: center;
+    border-top: 2px solid rgb(207, 202, 202);
+    margin-top: 100px;
+    margin-bottom: 40px;
+  }
+  
+  .fimg {
+    margin-right: 30px;
+    width: 25px;
+  }
+  
+  .m {
+    margin-top: 20px;
+  }
+  .cimg {
+    width: 25px;
+    position: relative;
+    top: 8px;
+    margin-left: 10px;
+  }
+  
+  .w {
+    word-spacing: 20px;
+    margin-top: 30px;
+  }
+  
+  .div2 {
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+  }
+  
+  .con {
+    width: 50%;
+    float: right;
+  }
+  
+  .div3 {
+    margin-top: 70px;
+    margin-left: 40px;
+  }
+  
+  .but {
+    width: 200px;
+    height: 40px;
+    font-size: 22px;
+    background-color: transparent;
+    margin-top: 30px;
+  }
+  
+  .bimg {
+    height: 450px;
+  }
+  
+  .mdiv {
+    width: 16.5%;
+    border-bottom: 1px dashed rgb(199, 199, 199);
+    border-right: 1px dashed rgb(199, 199, 199);
+    float: left;
+    text-align: center;
+  }
+  .mimg {
+    width: 100px;
+  }
+  
+  .brand-container {
+    display: inline-block;
+    width: 100%;
+  
+  }
+  .block{
+      border-bottom: none;
+  }
+  .rblock{
+      border-right: none;
+  }
+  .ba{
+    text-decoration: none;
+    color: black;
+  }
+  
+  .ps{
+    word-spacing: 4px;
+  }
+  
+  .fa{
+    text-decoration: none;
+    color: black;
+  }
+  
+  .fa:hover {
+    color: green;
+  }
+  .font{
+    font-size: 20px;
+  }

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="/resources/css/contactus.css">
+</head>
+<body>
+  <%- include('../partials/nav');
+  %>
+
+  <script>
+    alert("Data Save in Database.Thanks!");
+  </script>
+    <section id="section1">
+        <div class="header2nd">
+            <div class="header2ndinside">
+            <span>  
+            <b class="b">SHOP</b><br>
+           <span class="span"> Start Buying Your Favourite Theme</span>
+            </span>   
+            </div>
+            <div class="home">
+                <a href="">Home</a>
+                /
+                <a href="">Contact Us</a>
+            </div>
+        </div>
+        <div class="contact__container">
+        <h3>Send Us an Email</h3>
+        <form action="/shopi/add" method="post">
+            <div class="main ">
+                <div class="row1">
+                    <label for="name">NAME</label><br>
+                    <input class="inputmain" type="text" id="name" name="name">
+                </div>
+                <div class="row2">
+                    <label for="Email">EMAIL</label><br>
+                    <input class="inputmain" type="text" id="Email" name="email">
+                </div>
+                <div class="row3">
+                    <label for="mobile">PHONE</label><br>
+                    <input class="inputmain" type="number" id="mobile" name="mobile">
+                </div>
+            </div>
+            <div class="main2">
+                <div class="row4">
+                    <label for="name">SUBJECT</label><br>
+                    <input class="inputmain wi" type="text" id="name" name="subject">
+                </div>
+               
+
+            </div>
+            <div class="main2">
+                <div class="row4">
+                    <label for="name ">MESSAGE</label><br>
+                 <textarea style=margin-top:12px; id="" cols="93" rows="10" name="message"></textarea>
+                </div>
+                
+
+            </div>
+            <div class="main2">
+              <button class="button">SEND MESSAGE</button>
+            </div>
+        </form>
+        <div class="contact___container2">
+            <h6>HEADQUATR:</h6>
+            <P>795 folsom Ave,suit 600 <br>San franciso,CA 94107</P><br>
+            <p><span class="p">phone:</span>+4945674848
+                <span class="p">Fax:</span>+4945674848
+                <span class="p">Email:</span>@shopi.email.com
+            </p>
+            <span class="outside"><img class="img margin2" src="/resources/images/twitter.png" alt="">
+            <img class="img margin3" src="/resources/images/circle arrow.png" alt=""></span>
+            <span>
+                <a href=""><img class="img2 piccolor" src="/resources/images/facebook2.png" alt=""></a>
+                <a href=""><img class="img2 piccolor" src="/resources/images/twitter (2).png" alt=""></a>
+                <a href=""><img class="img2 piccolor" src="/resources/images/warning.png" alt=""></a>
+                <a href=""><img class="img2 piccolor" src="/resources/images/pinterest.png" alt=""></a>
+            </span>
+
+
+            
+        </div>
+       </div>
+       
+    </section> 
+    <div class="fdiv">
+        <footer>
+          <div class="w">
+             <a class="fa" href=""> Country</a>
+             <a class="fa" href=""> Location</a> 
+             <a class="fa" href=""> Products</a> 
+             <a class="fa" href=""> Work</a></div>
+          <div class="m">
+            <img class="fimg" src="/resources/images/facebook.png" alt="" />
+            <img class="fimg" src="/resources/images/twitter.png" alt="" />
+            <img class="fimg" src="/resources/images/google.png" alt="" />
+            <img class="fimg" src="/resources/images/insta.png" alt="" />
+          </div>
+  
+          <div class="m">
+            Made in Melborone<img
+              class="cimg"
+              src="/resources/images/america.png"
+              alt=""
+            />
+          </div>
+          <div class="m w">©2022 Privacy-policy Legal</div>
+        </footer>
+      </div> 
+</body>
+</html>

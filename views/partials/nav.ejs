@@ -1,0 +1,72 @@
+<div class="div1 nav">
+  <div class="t">Shopi</div>
+  <b>
+    <ul>
+      <li>
+        <a class="active" href="#"
+          ><img class="limg" src="/resources/images/shopping-cart (1).png" alt=""
+        /></a>
+      </li>
+      <li>
+        <a class="active" href="#"
+          ><img class="limg" src="/resources/images/magnifying-glass.png" alt=""
+        /></a>
+      </li>
+      <li><a class="active" href="/shopi/contact">Contact us</a></li>
+      <li><a href="/shopi/about">About</a></li>
+      <li><a href="/shopi/all">Shop all</a></li>
+      <li><a href="/shopi/index">Home</a></li>
+    </ul>
+  </b>
+</div>
+
+<script>
+  const nav = document.querySelector('.nav')
+window.addEventListener('scroll', fixNav)
+
+function fixNav() {
+if(window.scrollY > nav.offsetHeight + 150) {
+    nav.classList.add('active')
+} else {
+    nav.classList.remove('active')
+}
+}
+</script>
+
+
+
+<style>
+
+.nav {
+  position: fixed;
+  background-color: rgb(255, 255, 255);
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+
+.header2nd ,.top-banner{
+    margin-top: 85px;
+}
+
+.nav.active {
+  background-color: rgb(204, 201, 201);
+  box-shadow: 0 2px 10px rgba(219, 216, 216, 0.3);
+  z-index: 999999;
+}
+
+
+
+.nav.active .container {
+  padding: 10px 0;
+}
+
+.nav a.current,
+.nav a:hover {
+  color: #c0392b;
+  font-weight: bold;
+}
+
+</style>
